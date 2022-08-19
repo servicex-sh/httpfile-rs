@@ -4,5 +4,5 @@ fn main() {
         .httpfile("index.http")
         .compile()
         .unwrap();
-    println!("Build successful!!");
+    println!("Code generation for index.http successful!!");
 }
