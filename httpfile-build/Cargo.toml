@@ -1,0 +1,24 @@
+[package]
+name = "httpfile-build"
+version = "0.1.1"
+edition = "2021"
+authors = ["linux_china <libing.chen@gmail.com>"]
+description = "Call http requests wrapper by http file"
+keywords = ["http", "codegen", "async"]
+categories = ["network-programming", "asynchronous"]
+documentation = "https://servicex.sh/"
+homepage = "https://servicex.sh/"
+repository = "https://github.com/servicex-sh/httpfile-rs"
+license = "Apache-2.0"
+readme = "../README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+handlebars = "4"
+lazy_static="1.4"
