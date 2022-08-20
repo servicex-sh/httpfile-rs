@@ -50,6 +50,8 @@ httpfle::configure()
 let response = httpbin::my_ip().await?;
 ```
 
+Please refer [httpfile-demo](./httpfile-demo) for details.
+
 # References
 
 * Environment variables Cargo sets for build
