@@ -50,7 +50,9 @@ httpfle::configure()
 let response = httpbin::my_ip().await?;
 ```
 
-Please refer [httpfile-demo](./httpfile-demo) for details.
+Please refer [httpfile-demo](./httpfile-demo) for details. Screenshot for demo:
+
+![httpfile-rs screenshot](./httpfile-rs-screenshot.png)
 
 # References
 
